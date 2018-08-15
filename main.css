@@ -328,18 +328,22 @@ article.road-map div ul li:before {
     background: url("images/medium-white.svg") no-repeat left;
 }
 
-.footer .links  a{
+.footer .links a {
     padding-left: 24px;
 }
+
 .footer .links .blog a {
     background: url("images/medium-black.svg") no-repeat left;
 }
+
 .footer .links .twitter a {
     background: url("images/twitter.svg") no-repeat left;
 }
+
 .footer .links .rocket a {
     background: url("images/rocketchat.svg") no-repeat left;
 }
+
 .header .links {
     display: inline-block;
     width: 500px;
@@ -364,7 +368,8 @@ article.road-map div ul li:before {
     min-width: 1183px;
     box-sizing: border-box;
 }
-.footer .wave-img{
+
+.footer .wave-img {
     position: absolute;
     bottom: 0%;
     top: 0;
@@ -372,7 +377,8 @@ article.road-map div ul li:before {
     right: 0;
     z-index: -1;
 }
-.footer .wave-img img{
+
+.footer .wave-img img {
 
     width: 100%;
     position: absolute;
@@ -380,7 +386,8 @@ article.road-map div ul li:before {
 
     object-fit: contain;
 }
-.footer .roll::after{
+
+.footer .roll::after {
     content: " ";
     clear: both;
     display: table;
@@ -410,28 +417,31 @@ article.road-map div ul li:before {
 }
 
 .footer .links {
-   float: left;
+    float: left;
     width: 151px;
     margin-bottom: 50px;
 }
+
 .footer .links.docs {
     float: left;
     width: 253px;
     margin-bottom: 50px;
 }
-.footer .links li{
+
+.footer .links li {
     margin-bottom: 10px;
     display: block;
 }
-.footer .lg{
+
+.footer .lg {
     position: absolute;
     bottom: 58px;
     right: -4px;
     width: 24px;
     height: 24px;
 
-
 }
+
 article.about p {
     font-size: 23px;
     line-height: normal
@@ -499,7 +509,11 @@ article.how-to h3 span.selected {
     text-decoration: none;
 }
 
-section.bordered{
+section.notification{
+    min-width: 1183px;
+    box-sizing: border-box;
+}
+.bordered {
     padding: 0px;
     text-align: center;
     width: 100%;
@@ -509,14 +523,15 @@ section.bordered{
     background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(95deg, #ff0302, #f9c800 33%, #7fb575 64%, #06a6b9);
     background-origin: border-box;
     background-clip: content-box, border-box;
-color: #022133;
+    color: #022133;
     margin-top: 25px;
 
 }
-section.bordered a{
+
+.bordered a {
     color: #022133;
 
 }
-section.bordered .wrap{
+.bordered .wrap {
     margin-top: 15px;
 }
